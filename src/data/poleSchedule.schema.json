@@ -1,0 +1,23 @@
+{
+ "$schema":"http://json-schema.org/draft-07/schema#",
+ "title":"PoleSchedule",
+ "type":"object",
+ "required":["title","columns","conductorColumns","gstPercent","sides","reusable","creditMaterial","signature"],
+ "properties":{
+  "title":{"type":"string"},
+  "columns":{"type":"array","items":{"type":"object","required":["key","label","group"],
+    "properties":{"key":{"type":"string"},"label":{"type":"string"},"group":{"enum":["main","credit"]}}}},
+  "conductorColumns":{"type":"object","description":"column key -> conductor name","additionalProperties":{"type":"string"}},
+  "gstPercent":{"type":"number","description":"0.05 = 5% add-on"},
+  "sides":{"type":"object","additionalProperties":{"type":"object","required":["label","rows"],
+    "properties":{"label":{"type":"string"},"rows":{"type":"array","items":{"$ref":"#/definitions/row"}}}}},
+  "reusable":{"type":"object","required":["value"],"properties":{"label":{"type":"string"},"value":{"type":"number"},"editable":{"type":"boolean"}}},
+  "creditMaterial":{"type":"object","properties":{"label":{"type":"string"},"mode":{"enum":["auto","manual"]},"value":{"type":["number","null"]},"editable":{"type":"boolean"},"affectsSubTotal":{"type":"boolean","const":false}}},
+  "signature":{"type":"object","properties":{"enabled":{"type":"boolean"},"imageDataUrl":{"type":["string","null"]},"name":{"type":"string"},"office":{"type":"string"}}}
+ },
+ "definitions":{"row":{"type":"object","required":["loc"],
+   "properties":{"loc":{"type":"string","description":"Loc No"},
+    "span":{"type":["number","null"],"description":"Span length in meter"},
+    "conductor":{"type":"object","description":"conductor name -> multiplier; length = span x multiplier","additionalProperties":{"type":"number"}},
+    "qty":{"type":"object","description":"material column key -> quantity","additionalProperties":{"type":"number"}}}}}
+}

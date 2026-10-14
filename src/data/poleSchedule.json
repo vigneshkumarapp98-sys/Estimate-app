@@ -1,0 +1,458 @@
+{
+ "title": "AGL (Tatkal) LT  Pole shedule Request by Dhurvasan-0580425252",
+ "columns": [
+  {
+   "key": "C",
+   "label": "AAAC 7/ 3.15 mm",
+   "group": "main"
+  },
+  {
+   "key": "D",
+   "label": "AAAC 7 / 2.50 mm",
+   "group": "main"
+  },
+  {
+   "key": "E",
+   "label": "RSJ Pole",
+   "group": "main"
+  },
+  {
+   "key": "F",
+   "label": "Psc Pole 9.0 Mtr",
+   "group": "main"
+  },
+  {
+   "key": "G",
+   "label": "Psc Pole 8.0 Mtr",
+   "group": "main"
+  },
+  {
+   "key": "H",
+   "label": "Psc Pole 7.5 Mtr",
+   "group": "main"
+  },
+  {
+   "key": "I",
+   "label": "Base plate",
+   "group": "main"
+  },
+  {
+   "key": "J",
+   "label": "Tapping  X arm",
+   "group": "main"
+  },
+  {
+   "key": "K",
+   "label": "V Xarm 3'6\"",
+   "group": "main"
+  },
+  {
+   "key": "L",
+   "label": "Clamp for RSJ",
+   "group": "main"
+  },
+  {
+   "key": "M",
+   "label": "Clamp for 9.0m",
+   "group": "main"
+  },
+  {
+   "key": "N",
+   "label": "Clamp for 8 or 7.5m",
+   "group": "main"
+  },
+  {
+   "key": "O",
+   "label": "11 KV strain disc",
+   "group": "main"
+  },
+  {
+   "key": "P",
+   "label": "11 KV pin insulator with pin",
+   "group": "main"
+  },
+  {
+   "key": "Q",
+   "label": "HT Ti fitting",
+   "group": "main"
+  },
+  {
+   "key": "R",
+   "label": "LT 3ph X arm",
+   "group": "main"
+  },
+  {
+   "key": "S",
+   "label": "LT S ph X arm",
+   "group": "main"
+  },
+  {
+   "key": "T",
+   "label": "LT shackle",
+   "group": "main"
+  },
+  {
+   "key": "U",
+   "label": "LT pin Insulator",
+   "group": "main"
+  },
+  {
+   "key": "V",
+   "label": "Aluminium knob",
+   "group": "main"
+  },
+  {
+   "key": "W",
+   "label": "Stay set complete",
+   "group": "main"
+  },
+  {
+   "key": "X",
+   "label": "Stay clamp",
+   "group": "main"
+  },
+  {
+   "key": "Y",
+   "label": "LT TI Fitting",
+   "group": "main"
+  },
+  {
+   "key": "Z",
+   "label": "Guy shackle",
+   "group": "main"
+  },
+  {
+   "key": "AA",
+   "label": "Concreting",
+   "group": "main"
+  },
+  {
+   "key": "AB",
+   "label": "Earthing",
+   "group": "main"
+  },
+  {
+   "key": "AC",
+   "label": "Bolt & Nut",
+   "group": "main"
+  },
+  {
+   "key": "AD",
+   "label": "Guarduing X arm",
+   "group": "main"
+  },
+  {
+   "key": "AE",
+   "label": "Credit",
+   "group": "credit"
+  },
+  {
+   "key": "AF",
+   "label": "ACSR 7/ 2.59 mm",
+   "group": "credit"
+  },
+  {
+   "key": "AG",
+   "label": "ACSR 7/ 2.11 mm",
+   "group": "credit"
+  },
+  {
+   "key": "AH",
+   "label": "RSJ Pole",
+   "group": "credit"
+  },
+  {
+   "key": "AI",
+   "label": "Psc pole 9.0m",
+   "group": "credit"
+  },
+  {
+   "key": "AJ",
+   "label": "Psc pole 8.0m",
+   "group": "credit"
+  },
+  {
+   "key": "AK",
+   "label": "Psc pole 7.5m",
+   "group": "credit"
+  },
+  {
+   "key": "AL",
+   "label": "Tapping X Arm",
+   "group": "credit"
+  },
+  {
+   "key": "AM",
+   "label": "V Xarm 4'6\"",
+   "group": "credit"
+  },
+  {
+   "key": "AN",
+   "label": "V X Arm 3x6",
+   "group": "credit"
+  },
+  {
+   "key": "AO",
+   "label": "Clamp for RSJ",
+   "group": "credit"
+  },
+  {
+   "key": "AP",
+   "label": "Clamp 9.0 Mtr",
+   "group": "credit"
+  },
+  {
+   "key": "AQ",
+   "label": "Clamp 7.5 or 8.0 Mtr",
+   "group": "credit"
+  },
+  {
+   "key": "AR",
+   "label": "11 KV Strain Disc",
+   "group": "credit"
+  },
+  {
+   "key": "AS",
+   "label": "11 KV Pin Insulator",
+   "group": "credit"
+  },
+  {
+   "key": "AT",
+   "label": "HT Ti Fitting",
+   "group": "credit"
+  },
+  {
+   "key": "AU",
+   "label": "LT 3ph X arm",
+   "group": "credit"
+  },
+  {
+   "key": "AV",
+   "label": "LT S ph X arm",
+   "group": "credit"
+  },
+  {
+   "key": "AW",
+   "label": "LT shackle",
+   "group": "credit"
+  },
+  {
+   "key": "AX",
+   "label": "LT pin Insulator",
+   "group": "credit"
+  },
+  {
+   "key": "AY",
+   "label": "Aluminium knob",
+   "group": "credit"
+  },
+  {
+   "key": "AZ",
+   "label": "Stay set complete",
+   "group": "credit"
+  },
+  {
+   "key": "BA",
+   "label": "Stay Clamp",
+   "group": "credit"
+  },
+  {
+   "key": "BB",
+   "label": "LT TI Fitting",
+   "group": "credit"
+  }
+ ],
+ "conductorColumns": {
+  "C": "AAAC 7/3.15",
+  "D": "AAAC 7/2.50",
+  "AF": "ACSR 7/2.59"
+ },
+ "gstPercent": 0.05,
+ "sides": {
+  "board": {
+   "label": "Board side",
+   "rows": [
+    {
+     "loc": "E1",
+     "span": null,
+     "conductor": {},
+     "qty": {
+      "N": 1,
+      "R": 1,
+      "T": 3,
+      "V": 1,
+      "W": 1,
+      "X": 1,
+      "Z": 1,
+      "AC": 1
+     }
+    },
+    {
+     "loc": "P1",
+     "span": 25,
+     "conductor": {
+      "AAAC 7/2.50": 4
+     },
+     "qty": {
+      "F": 1,
+      "I": 1,
+      "M": 2,
+      "R": 2,
+      "T": 6,
+      "V": 2,
+      "W": 2,
+      "X": 2,
+      "Z": 2,
+      "AC": 2
+     }
+    },
+    {
+     "loc": "C1",
+     "span": 50,
+     "conductor": {
+      "AAAC 7/2.50": 4
+     },
+     "qty": {
+      "G": 1,
+      "I": 1,
+      "N": 1,
+      "R": 1,
+      "U": 3,
+      "V": 1,
+      "AC": 1
+     }
+    },
+    {
+     "loc": "P3",
+     "span": 35,
+     "conductor": {
+      "AAAC 7/2.50": 4
+     },
+     "qty": {
+      "G": 2,
+      "I": 1,
+      "N": 2,
+      "R": 2,
+      "S": 2,
+      "T": 6,
+      "V": 2,
+      "W": 1,
+      "X": 1,
+      "Z": 1,
+      "AC": 2
+     }
+    },
+    {
+     "loc": "P4",
+     "span": 56,
+     "conductor": {
+      "AAAC 7/2.50": 4
+     },
+     "qty": {
+      "F": 1,
+      "I": 1,
+      "K": 2,
+      "M": 3,
+      "P": 4,
+      "Q": 1,
+      "R": 1,
+      "U": 3,
+      "V": 1,
+      "AC": 1
+     }
+    },
+    {
+     "loc": "P5",
+     "span": 36,
+     "conductor": {
+      "AAAC 7/2.50": 4
+     },
+     "qty": {
+      "G": 1,
+      "I": 1,
+      "N": 1,
+      "R": 1,
+      "T": 3,
+      "V": 1,
+      "W": 1,
+      "X": 1,
+      "Z": 1,
+      "AC": 1
+     }
+    },
+    {
+     "loc": "D1",
+     "span": 30,
+     "conductor": {
+      "ACSR 7/2.59": 5
+     },
+     "qty": {
+      "AO": 1,
+      "AR": 1
+     }
+    },
+    {
+     "loc": "D2",
+     "span": 40,
+     "conductor": {
+      "ACSR 7/2.59": 5
+     },
+     "qty": {
+      "AL": 1,
+      "AV": 1
+     }
+    }
+   ]
+  },
+  "consumer": {
+   "label": "Consumer side",
+   "rows": [
+    {
+     "loc": "P1",
+     "span": 50,
+     "conductor": {
+      "AAAC 7/2.50": 3
+     },
+     "qty": {
+      "F": 1,
+      "K": 1,
+      "P": 1,
+      "V": 1,
+      "Z": 1,
+      "AC": 1
+     }
+    },
+    {
+     "loc": "D3",
+     "span": 30,
+     "conductor": {
+      "ACSR 7/2.59": 5
+     },
+     "qty": {
+      "AL": 1,
+      "AP": 1,
+      "AV": 1
+     }
+    }
+   ]
+  }
+ },
+ "reusable": {
+  "label": "Reusable Materials",
+  "value": 500,
+  "editable": true
+ },
+ "creditMaterial": {
+  "label": "Credit Materials",
+  "mode": "auto",
+  "value": null,
+  "editable": true,
+  "affectsSubTotal": false
+ },
+ "signature": {
+  "enabled": true,
+  "imageDataUrl": null,
+  "name": "Assistant Engineer",
+  "office": "O&M / South/Rayakottai"
+ }
+}

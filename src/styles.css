@@ -1,0 +1,14 @@
+body{font-family:Arial,sans-serif;margin:0;background:#e8e8e8}header{position:sticky;top:0;background:#fff;padding:6px 10px;border-bottom:1px solid #ccc;z-index:5;display:flex;flex-wrap:wrap;gap:8px;justify-content:space-between}
+button,.btn{font:inherit;padding:4px 10px;margin:2px;border:1px solid #888;background:#f6f6f6;border-radius:4px;cursor:pointer}button.on{background:#1a56c4;color:#fff}
+main{padding:10px}.page{background:#fff;margin:0 auto 14px;padding:10mm;box-sizing:border-box;position:relative;overflow:auto}
+.page.portrait{width:210mm;min-height:297mm}.page.landscape{width:297mm;min-height:210mm}.bar{margin-bottom:6px}
+table.sheet{border-collapse:collapse;table-layout:fixed}table.sheet td{padding:0 2px;overflow:hidden;white-space:pre-wrap;vertical-align:middle}
+td.ed{background:#fff8c4}td.ed span{display:block;min-width:8px;outline:none}
+.sig{text-align:right;margin-top:8px}.sig img{max-height:60px}
+.scroll{overflow:auto}table.pole{border-collapse:collapse;font-size:11px}table.pole th,table.pole td{border:1px solid #444;padding:1px 3px;min-width:56px}
+table.pole th.credit{background:#e6f0ff}table.pole th.side,table.pole .sum td{background:#f0f0f0;font-weight:bold}table.pole .grand td{background:#d9f2d9}
+table.pole input{width:52px;font-size:11px;border:0;background:#fff8c4}table.pole input.mult{width:28px}table.pole input.amt{width:80px}a{cursor:pointer;color:#c00}
+@page p{size:A4 portrait;margin:0}@page l{size:A4 landscape;margin:0}
+@media print{body{background:#fff}.noprint{display:none!important}.page{margin:0;box-shadow:none;overflow:visible;break-after:page}
+.page.portrait{page:p;width:210mm;height:297mm;min-height:0}.page.landscape{page:l;width:297mm;height:210mm;min-height:0}
+td.ed,table.pole input{background:none!important}table.pole input{border:0}}
